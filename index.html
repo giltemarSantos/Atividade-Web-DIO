@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+    body
+    {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    h1
+    {
+        text-align: center;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    a:hover
+    {
+        color: orange;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <hr />
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+    <p>Sumário.</p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#client">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrBase">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#typeList">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+    <hr />
+
+    <h2 id="historia">História dos computadores</h2>
+        <p>
+            É apresentado todo o conceito histórico passando pelas
+            evolução dos computadores até os dias de hoje. Neste podemos compreender como funciona toda a <u>comunicação</u> 
+            quando acessamos uma página web ou quando utilizamos um aplicativo em dispositivos movéis. 
+        </p>
+
+        <p><small><a href="#indice">:Voltar</a></small></p>
+    <hr />
+
+    <h2 id="client">O que são <i>Clients</i>?</h2>
+        <p>
+            Neste módulo aprendemos como são feitas as requições
+            realizadas na web do lado do <strong>usuário</strong> ou <u>client.</u> Avançando nos 
+            estudos também aprendemos sobre os conceitos de uma página web responsivo, ou seja,
+            uma page que consegue ter uma boa exibição tanto em dispositivos móveis
+            quanto desktops. 
+        </p>
+        
+        <p><small><a href="#indice">:Voltar</a></small></p>
+    <hr />
+    
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+        <p> 
+            Neste módulo é abordados os principais conceitos e 
+            caracteristicas de um servidos, quais as <mark>linguagens comumente usadas em servidores</mark> 
+            e como são realizadas as requisições de retorno da informação de um servidor para o 
+            usuário final.
+        </p>
+
+        <p><small><a href="#indice">:Voltar</a></small></p>
+    <hr />
+
+    <h2 id="estrBase">Como é uma estrutura básica de um HTML?</h2>
+    <p><strong><u>Segue abaixo a estrutura minima para se ter um arquivo HTML</u> </strong>
+        <ol>
+            <li>
+                <strong><mark>DOCTYPE html ></mark></strong>   
+                <p>
+                    <i>A tag inicial em nosso código é essencial para informar aos navegadores que o 
+                        documento atual é um arquivo HTML. Essa convenção deve ser aplicada no início 
+                        de todos os arquivos, garantindo sua presença constante.</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>HTML ></mark></strong> 
+                <p>
+                    <i>Essa tag marca o início dos elementos de uma página. 
+                        Todos os outros elementos devem ser filhos 
+                        diretos ou indiretos dessa tag.</i> 
+                </p>  
+            </li>
+            <li>
+                <strong><mark>HEAD ></mark></strong> 
+                <p>
+                    <i>A tag de cabeçalho (Head) abriga o conteúdo que é interpretado pela máquina, 
+                        como scripts, links externos e metadados. Essa tag não representa um elemento visual.</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>META ></mark></strong> 
+                <p>
+                    <i>Esta tag é usada para descrever atributos adicionais de metadados 
+                        inclui valores conhecidos como: charset, name...</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>TITLE ></mark></strong> 
+                <p>
+                    <i>Essa tag é usada para descrever o título da página exibido na guia atual do navegador.</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>LINK ></mark></strong> 
+                <p>
+                    <i>Essa tag estabelece uma conexão entre o arquivo atual e algum conteúdo externo, 
+                        sendo mais comumente usado em conjunto com arquivos CSS. 
+                        A mesma tag também pode ser utilizada para redirecionar para um ponto específico 
+                        dentro da própria página web.</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>BODY ></mark></strong> 
+                <p>
+                    <i>É uma das tags mais populares e essenciais do HTML, onde adicionamos o conteúdo 
+                        que é visualizado pelo usuário final. Essa tag é única e pode ser considerada como 
+                        a tag principal de todos os elementos de conteúdo.</i>
+                </p>
+            </li>
+            <li>
+                <strong><mark>CONTEÚDO ></mark></strong> 
+                <p>
+                    <i>Aqui é o local onde adicionamos as tags de conteúdo, como texto, imagem, 
+                        tabela e formulário. Existem muitas opções disponíveis, e é a parte do 
+                        HTML em que os desenvolvedores têm maior atuação.</i>
+                </p>
+            </li>
+        </ol>
+       
+    <p><small><a href="#indice">:Voltar</a></small></p>
+    <hr />
+
+    <h2 id="typeList">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+        <p>
+            <strong><u>Lista  não Ordenada (unordered list):</u></strong>
+        </p>
+        <p>
+            <i>
+                É representada pela tag <b>ul.</b>  
+                Nesse tipo de lista, os itens são exibidos sem uma ordem específica 
+                e são marcados por marcadores, geralmente pontos ou pequenos círculos. 
+                Os itens da lista não são numerados ou organizados em sequência.
+            </i>
+            <strong>EX:</strong> 
+            <blockquote>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>  
+            </blockquote>
+        </p>
+        
+        <p>
+            <strong><u>Lista Ordenada (ordered list):</u></strong>
+        </p>
+        <p>
+            <i>
+                É representada pela tag <b>ol.</b>  
+                Nesse tipo de lista, os itens são exibidos em uma ordem sequencial e 
+                são numerados automaticamente. Os itens da lista são organizados 
+                em uma sequência específica.
+            </i>
+            <strong>EX:</strong> 
+            <blockquote>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                  </ol>
+            </blockquote>
+        </p>
+
+        
+        <p><small><a href="#indice">:Voltar</a></small></p>
+    <hr />
+    
+    <h2 id="referencias">Links de referências</h2>
+    <p><strong><u>Segue alguns links para complemento de conhecimento</u></strong>.</p>
+    <ul>
+        <li><a href="https://www.dio.me/" target="_blank">http://dio.me</a></li> <br>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">www.w3schools.com</a></li> <br>
+        <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li> <br>
+    </ul>
+    <small><a href="#indice">:Voltar</a></small>
+
+</body>
+</html>
